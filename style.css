@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#fb3a3a, #fc6d6d );
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+    width: 60%;
+    min-width: 800px;
+
+    height: 70vh;
+
+    background-color: #f9f6fd;
+
+    border-radius: 16px;
+}
+
+.leftBox {
+    display: flex;
+    flex-direction: column;
+
+    width: 40%;
+    height: 100%;
+
+    padding: 4% 5%;
+
+    background-color: #ffffff;
+
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.submitBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    
+    gap: 10px;
+    
+    width: 80%;
+    height: 30%;
+}
+
+.submitBox input{
+    width: 100%;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.submitBox button {
+    width: 60%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 4px;
+    background-color: black;
+    color: #ffffff;
+}
+
+.rightBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightBox img {
+    width: 90%;
+}
